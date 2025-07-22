@@ -1,0 +1,10 @@
+cat > logs/latest_attack.json << 'EOF'
+{
+  "domain": "google.com",
+  "spoofed_ip": "1.1.1.1",
+  "expected_ips": ["142.250.180.78"],
+  "ttl": 1,
+  "txid": 123,
+  "timestamp": "2025-04-05 16:23:45"
+}
+EOF
